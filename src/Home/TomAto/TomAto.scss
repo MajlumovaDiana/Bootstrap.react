@@ -1,0 +1,27 @@
+.tomato{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(232, 239, 238);
+    margin-bottom: 60px;
+    .tomato_text{
+        margin: 0 auto;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        .tomato_main_text{
+         margin-top: 100px;
+         p{
+            font-size: 25px;
+            margin-bottom: 40px;
+         }
+        }
+        .tomato_short_text{
+                span{
+                    font-weight: bolder;
+                    font-size: 20px;
+                }
+        }
+    }
+}

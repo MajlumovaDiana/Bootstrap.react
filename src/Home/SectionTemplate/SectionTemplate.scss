@@ -1,0 +1,82 @@
+.Main_SectionTemplate {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(31, 37, 41);
+    margin-bottom: 80px;
+
+    .sectiontemplate {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .sectiontemplate_leftpart {
+            margin-top: 80px;
+            width: 600px;
+
+            .sectiontemplate_text {
+                margin-bottom: 40px;
+
+                h1 {
+                    margin-bottom: 40px;
+                    font-size: 40px;
+                    color: white;
+                    width: 400px;
+                }
+
+                p {
+                    color: gray;
+                    font-size: 20px;
+                }
+            }
+
+            .sectiontemplate_buttons {
+                .blue_button {
+                    margin-right: 20px;
+                    width: 30%;
+                    height: 50px;
+                    cursor: pointer;
+                    background-color: blue;
+                    border: blue;
+                    border-radius: 6px;
+
+                    span {
+                        color: white;
+                        font-size: 15px;
+                    }
+
+                    &:hover {
+                        background-color: darkblue;
+                    }
+                }
+
+                .transparent_button {
+                    width: 30%;
+                    height: 50px;
+                    cursor: pointer;
+                    background-color: transparent;
+                    border-radius: 6px;
+                    border: 1px solid white;
+                    color: white;
+                    font-size: 15px;
+                    &:hover {
+                        background-color: white;
+                        color: black;
+
+                    }
+                }
+            }
+        }
+
+        .sectiontemplate_img {
+            width: 360px;
+            height: 200px;
+            background-image: url("https://dummyimage.com/600x400/343a40/6c757d");
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            background-size: cover;
+            margin-top: 100px;
+        }
+    }
+}
